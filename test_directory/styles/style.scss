@@ -1,0 +1,73 @@
+﻿@import 'variables';
+
+body { 
+    margin: $margin;
+    padding:$padding;
+    background: url(../img/Untitled-3.png) content-box;
+    background-size: cover;
+    text-align: $text-align;
+    font-family: 'ubunturegular';
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.form {
+    margin: $margin-auto;
+    text-align: $text-align;
+    margin-top: $value50px;
+}
+.first{
+        padding-top: $value10px;
+    font-size: $value50px;;
+    color: $color;
+    font-weight: $font;
+}
+input[type="text"],[type="password"]{
+         padding-bottom: $value13px;
+    padding-top: $value13px;
+    padding-left: $value20px;
+    padding-right: $value20px;
+    width: 200px;
+    margin-top: $value20px;
+    border-radius: $value25px;
+    border: 0;
+    cursor: $cursor;
+    font-size: $value12px;
+       background: $background;   
+    color: $color;
+}
+input[type="text"]:hover,[type="password"]:hover,[type="submit"]:hover {
+        background: ghostwhite;
+    color: black;
+    box-shadow: 0 0 12px  #F0F8FF;
+}
+
+input[type="submit"]{
+       padding-bottom: $value13px;
+    padding-top: $value13px;
+    padding-left: $value20px;
+    padding-right: $value20px;
+    width: 235px;
+    margin-top: $value20px;
+    border-radius: $value20px;
+    border: 0;
+    cursor: $cursor;
+    font-size: $value12px;
+    margin-bottom: 15px;
+    background: rgb(249,99,50);
+    color: $color;
+}
+
+.link{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.5);
+font-size: $value13px;
+    padding: 40px;
+}
+.link:hover{
+    color: #FF7F50;
+    
+}
